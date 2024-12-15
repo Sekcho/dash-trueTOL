@@ -3,7 +3,7 @@ import pandas as pd
 import plotly.express as px
 
 # Load Dataset with error handling
-file_path = r'C:/Project/TrueTOL/Songkhla_L2_with_Enhanced_Data.csv'  # Updated to the uploaded file path
+file_path = 'Songkhla_L2_with_Enhanced_Data.csv'  # Relative path for Render deployment
 try:
     # Load dataset with enhanced handling for malformed rows
     data = pd.read_csv(
