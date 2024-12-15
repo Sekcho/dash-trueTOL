@@ -51,6 +51,7 @@ except Exception as e:
 
 # Create Dash App
 app = Dash(__name__)
+server = app.server
 
 # Layout
 app.layout = html.Div([
